@@ -1,0 +1,108 @@
+# jpg
+*.[jJ][pP][gG]
+
+# png
+*.[pP][nN][gG]
+
+# zip
+*.[zZ][iI][pP]
+
+# mp4
+*.[mM][pP][4]
+
+# avi
+*.[aA][vV][iI]
+
+# jpeg
+*.[jJ][pP][eE][gG]
+
+# pgm
+*.[pP][gG][mM]
+
+# eps
+*.[eE][pP][sS]
+
+# ipynb
+*.[iI][pP][yY][nN][bB]
+
+# txt
+*.[tT][xX][tT]
+!CMakeLists.txt
+
+# npy
+*.[nN][pP][yY]
+
+# pyc
+*.[pP][yY][cC]
+
+# pb
+*.[pP][bB]
+
+# pkl
+*.[pP][kK][lL]
+
+# mat
+*.[mM][aA][tT]
+
+# tif
+*.[tT][iI][fF]
+
+# tiff
+*.[tT][iI][fF][fF]
+
+# yml
+*.[yY][mM][lL]
+
+# csv
+*.[cC][sS][vV]
+
+# zip
+*.[zZ][iI][pP]
+
+# tar
+*.[tT][aA][rR]
+
+# tgz
+*.[tT][gG][zZ]
+
+# gz
+*.[gG][zZ]
+
+# 7z
+*.[7][zZ]
+
+# tar.gz
+*.[tT][aA][rR][.][gG][zZ]
+
+# meta
+*.[mM][eE][tT][aA]
+
+# ckpt
+*.[cC][kK][pP][tT]
+
+# keras weigths
+*.h5
+*.hdf5
+
+*.DS_Store
+.DS_Store
+octave-workspace
+
+bin/
+build/
+lib/
+__pycache__/
+.vscode
+
+**/*.egg-info
+**/venv
+*~
+
+.idea/
+
+run_demo
+
+.sublime-project
+.sublime-workspace
+
+data/
