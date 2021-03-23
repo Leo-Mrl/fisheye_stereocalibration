@@ -8,13 +8,13 @@
 
 int main(int argc, char **argv) {
     std::string img_path;
-    if(argc > 1) {
+    if (argc > 1) {
         img_path = argv[1];
         printf("\nOverriding path to the calibration images : %s\n", img_path.c_str());
     }
 
     int imgSel = 0;
-    if(argc > 2){
+    if (argc > 2) {
         imgSel = atoi(argv[2]);
     }
 
@@ -37,7 +37,7 @@ int main(int argc, char **argv) {
 
     printf("\n\n |> Extrinsic parameters estimation and refinement...");
     cv::Mat rbmLeft, rbmRight, rbmMean;
-    extrinsicEstimation(RotationsL, RotationsR, TranslationsL, TranslationsR, &rbmLeft, &rbmRight, 
+    extrinsicEstimation(RotationsL, RotationsR, TranslationsL, TranslationsR, &rbmLeft, &rbmRight,
         &rbmMean, numIm);
 
     printf("\n\n |> Fudamental matrix computation...");

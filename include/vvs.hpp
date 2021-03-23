@@ -9,4 +9,4 @@
 
 bool estimateVVS(Eigen::Matrix4d & pose, const std::vector<std::shared_ptr<Measure> > & measures);
 
-#endif
+#endif  // FISHEYE_STEREOCALIB_INCLUDE_VVS_HPP_

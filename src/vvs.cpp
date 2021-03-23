@@ -17,7 +17,6 @@ bool estimateVVS(Eigen::Matrix4d & pose, const std::vector<std::shared_ptr<Measu
   std::shared_ptr<Lens> lens = measures[0]->getCamera()->getLens();
 
   for (int iter = 0; iter < 10; iter++) {
-
     JtJ.fill(0.0);
     Jtd.fill(0.0);
     sum = 0.0;
@@ -92,9 +91,9 @@ bool estimateVVS(Eigen::Matrix4d & pose, const std::vector<std::shared_ptr<Measu
 
       for (int i = 0; i < 6; i++) {
         for (int j = 0; j < 6; j++) {
-          JtJ(i,j) += J[0][i] * J[0][j] + J[1][i] * J[1][j] + J[2][i] * J[2][j];
+          JtJ(i, j) += J[0][i] * J[0][j] + J[1][i] * J[1][j] + J[2][i] * J[2][j];
         }
-        Jtd(i,0) += J[0][i] * ex + J[1][i] * ey + J[2][i] * ez;
+        Jtd(i, 0) += J[0][i] * ex + J[1][i] * ey + J[2][i] * ez;
       }
     }
 
@@ -117,8 +116,8 @@ bool estimateVVS(Eigen::Matrix4d & pose, const std::vector<std::shared_ptr<Measu
     Eigen::AngleAxisd aa(angle, axis);
     Eigen::Matrix4d T;
     T.setIdentity();
-    T.block<3,3>(0,0) = aa.toRotationMatrix();
-    T.block<3,1>(0,3) = translation;
+    T.block<3, 3>(0, 0) = aa.toRotationMatrix();
+    T.block<3, 1>(0, 3) = translation;
 
     pose = T.inverse() * pose;
   }
