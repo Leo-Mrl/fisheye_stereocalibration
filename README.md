@@ -14,7 +14,7 @@ In a nutshell : standard camera calibration uses a rectilinear camera model (i.e
 
 ## 2. Mac users : you need XQuartz first
 
-If you are a Mac user, you can still run this code, but will need to install [XQuartz](https://www.xquartz.org/) beforehand. After that, launch XQuartz from the application panel, go to `Preferences` -> `Security` -> `Allow connections from network clients`. This is essential to allow the interactive display through Docker.
+If you are a Mac user, you can still run this code, but will need to install [XQuartz](https://www.xquartz.org/) beforehand. After that, launch XQuartz from the application panel, go to `Preferences` -> `Security` -> `Allow connections from network clients`. This is required to allow the interactive display through Docker.
 
 
 ## 3. Quickly running the demo code
