@@ -1,4 +1,4 @@
-#include "measuresGrid.hpp"
+#include "measuresgrid.hpp"
 
 #include "camera.hpp"
 #include "pointgrid.hpp"

@@ -32,7 +32,7 @@ docker pull leomrl/stereocalib:latest
 printf "\n\n\n |> Compiling code\n"
 docker run --rm -it -d -v ${CURR_PATH}:${WORK_PATH} -v /tmp/.X11-unix:/tmp/.X11-unix \
 -e DISPLAY=${HOSTNAME}:0 -w ${WORK_PATH} --name stereocalib_demo leomrl/stereocalib:latest /bin/bash
-docker exec -it stereocalib_demo make
+docker exec -it stereocalib_demo make -j$(nproc)
 
 printf "\n\n\n |> Running the demo"
 docker exec -it stereocalib_demo ./run_demo /data_fisheyestereo/ 5
