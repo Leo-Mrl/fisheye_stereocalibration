@@ -6,7 +6,7 @@
 #include "lens.hpp"
 #include "point.hpp"
 #include "measure.hpp"
-#include "pointGrid.hpp"
+#include "pointgrid.hpp"
 
 #include <map>
 #include <ceres/ceres.h>
