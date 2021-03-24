@@ -7,7 +7,7 @@
 #include "opencv2/core/core.hpp"
 
 #include "frame.hpp"
-#include "checkerBoard.hpp"
+#include "checkerboard.hpp"
 #include "lensFisheye.hpp"
 #include "extrinsicEstimator.hpp"
 #include "refinementEstimator.hpp"

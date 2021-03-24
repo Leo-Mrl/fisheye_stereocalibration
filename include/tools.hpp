@@ -20,7 +20,7 @@
 #include <iomanip>
 
 #include "camera.hpp"
-#include "checkerBoard.hpp"
+#include "checkerboard.hpp"
 #include "lensFisheye.hpp"
 #include "pointGrid.hpp"
 #include "fisheyeIntrinsicEstimator.hpp"

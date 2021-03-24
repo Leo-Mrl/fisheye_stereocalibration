@@ -1,4 +1,4 @@
-#include "checkerBoard.hpp"
+#include "checkerboard.hpp"
 
 CheckerBoard::CheckerBoard() {
 }
