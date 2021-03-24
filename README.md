@@ -12,12 +12,12 @@ This work was initially realized as part of my master's thesis, while interning 
 In a nutshell : standard camera calibration uses a rectilinear camera model (i.e. projecting the 3D image onto a rectangle). This models yields great results in most use cases, but performs poorly when used on wide-angle fisheye cameras (especially when FOV > 180), because of the circular shape of the lens being too extreme for the rectilinear model to accurately describe it (even when making use of advanced mathematical models of image distortion in addition to the camera model). Therefore, we chose to perform the camera calibration using a spherical lens model, and built an interactive demonstration of its epipolar geometry (then yielding epipolar curves instead of epipolar lines).
 
 
-## 2. Mac users : you need XQuartz first
+## 2. Mac users : you need XQuartz
 
 If you are a Mac user, you can still run this code, but will need to install [XQuartz](https://www.xquartz.org/) beforehand. After that, launch XQuartz from the application panel, go to `Preferences` -> `Security` -> `Allow connections from network clients`. This is required to allow the interactive display through Docker.
 
 
-## 2.5 Linux users : you need xterm
+## 2.5. Linux users : you need xterm
 
 If you are a Linux user, you need to install the `xterm` package to allow the export of the display from the Docker container : `sudo apt-get install -y xterm`
 
