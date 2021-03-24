@@ -1,4 +1,4 @@
-#include "lensFisheye.hpp"
+#include "lensfisheye.hpp"
 
 #include <ceres/ceres.h>
 #include "measure.hpp"
