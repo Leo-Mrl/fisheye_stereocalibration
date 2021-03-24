@@ -17,6 +17,11 @@ In a nutshell : standard camera calibration uses a rectilinear camera model (i.e
 If you are a Mac user, you can still run this code, but will need to install [XQuartz](https://www.xquartz.org/) beforehand. After that, launch XQuartz from the application panel, go to `Preferences` -> `Security` -> `Allow connections from network clients`. This is required to allow the interactive display through Docker.
 
 
+## 2.5 Linux users : you need xterm
+
+If you are a Linux user, you need to install the `xterm` package to allow the export of the display from the Docker container : `sudo apt-get install -y xterm`
+
+
 ## 3. Quickly running the demo code
 
 The easiest way to run the demo code is to use [Docker](https://www.docker.com/products/docker-desktop). From there, the script located at `setup.sh` does everything on its own :
