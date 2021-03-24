@@ -9,8 +9,9 @@ esac
 
 if [ "$MACHINE" == "Mac" ]; then
     xhost + ${hostname}
-	export HOSTNAME=`hostname`
+	export HOSTNAME=`hostname`":0"
 elif [ "$MACHINE" == "Linux" ]; then
+	xhost local:root
     export HOSTNAME=$DISPLAY
 else
 	echo "Unable to identify the type of machine you are running (Linux, Mac etc.), please setup this variable manually"
@@ -31,7 +32,7 @@ docker pull leomrl/stereocalib:latest
 
 printf "\n\n\n |> Compiling code\n"
 docker run --rm -it -d -v ${CURR_PATH}:${WORK_PATH} -v /tmp/.X11-unix:/tmp/.X11-unix \
--e DISPLAY=${HOSTNAME}:0 -w ${WORK_PATH} --name stereocalib_demo leomrl/stereocalib:latest /bin/bash
+-e DISPLAY=${HOSTNAME} -w ${WORK_PATH} --name stereocalib_demo leomrl/stereocalib:latest /bin/bash
 docker exec -it stereocalib_demo make
 
 printf "\n\n\n |> Running the demo"
