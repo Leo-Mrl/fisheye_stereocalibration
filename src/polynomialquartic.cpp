@@ -1,5 +1,5 @@
-#include "polynomialQuartic.hpp"
-#include "polynomialCubic.hpp"
+#include "polynomialquartic.hpp"
+#include "polynomialcubic.hpp"
 
 #include <math.h>
 #include <limits>

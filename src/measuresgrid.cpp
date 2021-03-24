@@ -1,7 +1,7 @@
 #include "measuresGrid.hpp"
 
 #include "camera.hpp"
-#include "pointGrid.hpp"
+#include "pointgrid.hpp"
 #include "measure.hpp"
 
 #include <memory>

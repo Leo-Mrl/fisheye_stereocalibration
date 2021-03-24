@@ -8,11 +8,11 @@
 
 #include "frame.hpp"
 #include "checkerboard.hpp"
-#include "lensFisheye.hpp"
-#include "extrinsicEstimator.hpp"
-#include "refinementEstimator.hpp"
+#include "lensfisheye.hpp"
+#include "extrinsicestimator.hpp"
+#include "refinementestimator.hpp"
 #include "rectification.hpp"
-#include "fisheyeIntrinsicEstimator.hpp"
+#include "fisheyeintrinsicestimator.hpp"
 
 std::shared_ptr<LensFishEye> calibration(const int gridwidth, const int gridheight, 
 	const double squaresize, const std::vector<std::string> &images, 

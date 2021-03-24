@@ -3,7 +3,7 @@
 #include "calibration.hpp"
 #include "demoepipolar.hpp"
 #include "epipolar.hpp"
-#include "lensFisheye.hpp"
+#include "lensfisheye.hpp"
 #include "tools.hpp"
 
 int main(int argc, char **argv) {

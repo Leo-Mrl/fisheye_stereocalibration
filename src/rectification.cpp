@@ -17,11 +17,11 @@
 
 #include "camera.hpp"
 #include "checkerboard.hpp"
-#include "lensFisheye.hpp"
-#include "pointGrid.hpp"
-#include "fisheyeIntrinsicEstimator.hpp"
-#include "extrinsicEstimator.hpp"
-#include "refinementEstimator.hpp"
+#include "lensfisheye.hpp"
+#include "pointgrid.hpp"
+#include "fisheyeintrinsicestimator.hpp"
+#include "extrinsicestimator.hpp"
+#include "refinementestimator.hpp"
 #include "point.hpp"
 #include "tools.hpp"
 

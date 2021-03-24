@@ -5,8 +5,8 @@
 #include "config.hpp"
 #include "measure.hpp"
 #include "lens.hpp"
-#include "measuresGrid.hpp"
-#include "pointGrid.hpp"
+#include "measuresgrid.hpp"
+#include "pointgrid.hpp"
 
 #include <Eigen/Core>
 #include <Eigen/SVD>

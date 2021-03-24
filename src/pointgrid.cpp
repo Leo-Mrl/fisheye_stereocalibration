@@ -1,4 +1,4 @@
-#include "pointGrid.hpp"
+#include "pointgrid.hpp"
 #include "point.hpp"
 #include <iostream>
 

@@ -1,5 +1,5 @@
-#include "polynomialCubic.hpp"
-#include "polynomialQuadratic.hpp"
+#include "polynomialcubic.hpp"
+#include "polynomialquadratic.hpp"
 
 #define _USE_MATH_DEFINES
 #include <math.h>

@@ -1,4 +1,4 @@
-#include "polynomialQuadratic.hpp"
+#include "polynomialquadratic.hpp"
 
 #include <math.h>
 #include <limits>

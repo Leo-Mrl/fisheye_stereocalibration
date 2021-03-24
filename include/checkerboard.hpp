@@ -10,7 +10,7 @@
 
 #include "config.hpp"
 #include "measure.hpp"
-#include "pointGrid.hpp"
+#include "pointgrid.hpp"
 #include "lens.hpp"
 #include "point.hpp"
 #include "camera.hpp"

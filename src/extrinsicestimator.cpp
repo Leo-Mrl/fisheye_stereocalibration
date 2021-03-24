@@ -1,12 +1,12 @@
-#include "ExtrinsicEstimator.hpp"
+#include "extrinsicestimator.hpp"
 #include "camera.hpp"
 #include "lens.hpp"
 #include "measure.hpp"
 #include "triangle.hpp"
 #include "p3p.hpp"
 #include "vvs.hpp"
-#include "pointGrid.hpp"
-#include "measuresGrid.hpp"
+#include "pointgrid.hpp"
+#include "measuresgrid.hpp"
 #include <limits>
 #include <iostream>
 

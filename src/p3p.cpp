@@ -2,7 +2,7 @@
 
 #include "point.hpp"
 #include "triangle.hpp"
-#include "polynomialQuartic.hpp"
+#include "polynomialquartic.hpp"
 #include <iostream>
 #include <limits>
 

@@ -1,4 +1,4 @@
-#include "fisheyeIntrinsicEstimator.hpp"
+#include "fisheyeintrinsicestimator.hpp"
 
 fisheyeIntrinsicEstimator::fisheyeIntrinsicEstimator() {
 

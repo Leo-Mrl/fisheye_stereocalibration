@@ -13,8 +13,8 @@
 #include <iomanip>
 #include <csignal>
 
-#include "pointGrid.hpp"
-#include "LensFishEye.hpp"
+#include "pointgrid.hpp"
+#include "lensfisheye.hpp"
 
 class SE3Parameterization : public ceres::LocalParameterization {
  public:
